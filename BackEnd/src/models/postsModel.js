@@ -1,3 +1,4 @@
+import 'dotenv/config';
 // Importa a função para conectar ao banco de dados, definida em outro arquivo.
 import { ObjectId } from "mongodb";
 import conectarAoBanco from "../config/dbconfig.js"; 
